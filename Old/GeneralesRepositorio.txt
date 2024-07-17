@@ -1,0 +1,29 @@
+Nombre de Repositorio
+	EjemploMvcObjetos
+Descripción
+	Muestra como redenrizar un objeto tipo coche, con php.
+
+Dirección de acceso al repositorio:
+
+	https://github.com/RosaOtero/EjemploMvcObjetos.git
+
+
+Creación del repositorio:
+
+
+	echo "# EjemploMvcObjetos" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/RosaOtero/EjemploMvcObjetos.git
+	git push -u origin main
+
+Actualización repositorio
+	
+	git Add .
+	git add -A
+	git add presentacion.txt
+	git commit -m "actualizo repositorio"
+	git push -u origin main
+
